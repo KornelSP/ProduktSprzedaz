@@ -15,8 +15,8 @@
         <property name="hibernate.hbm2ddl.auto">update</property>
 <!--        create-drop-->
 
-        <mapping class="pl.sda.hibernate.model.Produkt"/>
-        <mapping class="pl.sda.hibernate.model.Sprzedaz"/>
+        <mapping class="pl.sda.zaddomDwa.model.Produkt"/>
+        <mapping class="pl.sda.zaddomDwa.model.Sprzedaz"/>
 
     </session-factory>
 </hibernate-configuration>
