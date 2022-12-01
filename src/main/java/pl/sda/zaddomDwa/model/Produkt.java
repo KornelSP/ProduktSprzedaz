@@ -2,7 +2,6 @@ package pl.sda.zaddomDwa.model;
 
 import jakarta.persistence.*;
 import lombok.*;
-import org.hibernate.annotations.Formula;
 
 import java.util.Set;
 
@@ -23,8 +22,8 @@ public class Produkt {
     @Enumerated(value = EnumType.STRING)
     private Kategoria kategoria;
 
-    @Formula("(SELECT (SUM(cena * ilosc)/SUM(ilosc) FROM sprzedaz)")
-    private Double sredniaWazona;
+//    @Formula("(SELECT (SUM(cena*ilosc)/SUM(ilosc)) FROM sprzedaz)")
+//    private Double sredniaWazona;
 
     @ToString.Exclude
     @EqualsAndHashCode.Exclude
