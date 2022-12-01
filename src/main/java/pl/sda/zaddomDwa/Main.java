@@ -6,7 +6,8 @@ public class Main {
 
 //        Create_InsertProdukt.main();
 //        Create_InsertSprzedaz.main();
-    ListaProdukt.main();
+//    ListaProdukt.main();
+    ListaSprzedaz.main();
     }
 
 }
